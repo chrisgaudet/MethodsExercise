@@ -23,15 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MethodsExercise",
+              "Title": "MethodsExercise.csproj",
               "DocumentMoniker": "C:\\Users\\user\\repos\\MethodsExercise\\MethodsExercise\\MethodsExercise.csproj",
               "RelativeDocumentMoniker": "MethodsExercise\\MethodsExercise.csproj",
               "ToolTip": "C:\\Users\\user\\repos\\MethodsExercise\\MethodsExercise\\MethodsExercise.csproj",
               "RelativeToolTip": "MethodsExercise\\MethodsExercise.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-10T01:18:16.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T01:18:16.272Z"
             },
             {
               "$type": "Document",
@@ -41,7 +40,7 @@
               "RelativeDocumentMoniker": "MethodsExercise\\Program.cs",
               "ToolTip": "C:\\Users\\user\\repos\\MethodsExercise\\MethodsExercise\\Program.cs*",
               "RelativeToolTip": "MethodsExercise\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T00:14:13.358Z",
               "EditorCaption": ""

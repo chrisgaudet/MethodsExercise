@@ -1,7 +1,6 @@
-﻿namespace MethodsExercise
-{
+﻿namespace MethodsExercise {
 
-}
+
     public class Program
     {
         static void Main(string[] args)
@@ -20,6 +19,9 @@
             int Divided = Division(4, 2);
             Console.WriteLine(Divided);
 
+            int result = Sum(5, 5, 5, 5, 5);
+            Console.WriteLine(result);
+
             static void MadLib()
             {
                 Console.WriteLine("What is your name?");
@@ -34,25 +36,36 @@
                 Console.WriteLine($"One day, {userName} was walking through the woods while wearing a {favColor} t-shirt. {userName} saw a {favAnimal} listening to {favBand}.");
             }
 
-            static int Addition(int numOne, int numTwo)
-            {
+            static int Addition(int numOne, int numTwo) {
+
                 return numOne + numTwo;
             }
 
-            static int Subtraction(int numOne, int numTwo)
-            {
+            static int Subtraction(int numOne, int numTwo) {
+
                 return numOne - numTwo;
             }
 
-            static int Multiplication(int numOne, int numTwo)
-            {
+            static int Multiplication(int numOne, int numTwo) {
+
                 return numOne * numTwo;
             }
 
-            static int Division(int numOne, int numTwo)
-            {
+            static int Division(int numOne, int numTwo) {
+
                 return numOne / numTwo;
+            }
+
+            static int Sum(params int[] numbers) { 
+
+                int sum = 0;
+                foreach(int number in numbers)
+                {
+                    sum += number;
+                }
+
+                return sum;
             }
         }
     }
-
+}
